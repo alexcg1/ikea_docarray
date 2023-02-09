@@ -54,4 +54,4 @@ print(docs[0].chunks.summary())
 for doc in docs[0].chunks:
     print(doc.text)
 
-docs.push(name='IvonaTau_ikea')
+docs.push(name='IvonaTau_ikea', show_progress=True)
